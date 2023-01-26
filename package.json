@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "api": "node server/server.js"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.16.0",
+    "h3": "^1.0.2",
+    "pwa-asset-generator": "^6.2.1",
+    "sqlite3": "^5.1.4",
+    "vue": "^3.2.45",
+    "vue-cookie": "^1.1.4"
+  }
+}

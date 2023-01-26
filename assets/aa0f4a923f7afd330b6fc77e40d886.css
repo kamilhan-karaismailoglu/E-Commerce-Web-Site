@@ -1,0 +1,341 @@
+/* CLOSED CSS */
+.recommended-item-discounted {
+    display: none;
+}
+
+/* END OF CLOSED CSS */
+
+.swiper-container.collection-three.mobi-swiper {
+    float: left;
+    /* sitenin CSS'ine ekleniyor */
+}
+
+.personaclick-recommend .pc-in-img-callback {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.personaclick-recommend {
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.pc-swiper-outer-container {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.pc-swiper-outer-container .swiper-arrow {
+    position: absolute;
+    top: calc(50%);
+    height: 0;
+    right: 0;
+    z-index: 3;
+    left: -30px;
+    width: calc(100% + 60px);
+}
+
+.pc-swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-inner {
+    overflow: hidden;
+}
+
+.recommended-items.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.recommender-block-title {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.recommender-block-title-inner span+span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #64aeb7;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.recommender-block-title-inner span+span:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #64aeb7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.recommended-item {
+    float: left;
+    flex-shrink: 0;
+    background-color: #fff;
+}
+
+.recommended-item:hover .recommended-item-sepete-ekle {
+    opacity: 1;
+    visibility: visible;
+}
+
+.item_img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.recommended-item-details {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.recommended-item-title {
+    min-height: 55px;
+}
+
+.recommended-item-title a {
+    color: #545554;
+    font-size: 13px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.recommended-item-bottom-bar {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.recommended-item-discounted {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 20px;
+    width: 40px;
+    height: 25px;
+    background-color: #a40000;
+    margin-right: 20px;
+}
+
+.indirimYuzde {
+    display: block !important;
+    float: left;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #efefef;
+    line-height: 8px;
+    text-transform: lowercase;
+    margin: 9px auto;
+    width: min-content;
+}
+
+.indirimText {
+    display: none !important;
+    font-size: 8px;
+    color: #fff;
+    line-height: 9px;
+    text-transform: lowercase;
+    margin: -9px auto;
+    width: min-content;
+}
+
+.recommended-item-prices {
+    float: left;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+}
+
+.recommended-item-price {
+    float: left;
+    font-size: 13px;
+    font-weight: unset;
+    color: #a40000;
+    line-height: 21px;
+}
+
+.recommended-item-oldprice {
+    float: left;
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: unset;
+    line-height: 21px;
+    color: #5f5e5e;
+    text-decoration-color: #5f5e5e;
+    text-decoration: line-through;
+}
+
+.recommended-indirimsiz {
+    float: left;
+    font-size: 13px;
+    font-weight: unset;
+    color: #000;
+    line-height: 21px;
+}
+
+.recommended-item-indirim-text {
+    display: block;
+    color: #a40000;
+    margin-top: 5px;
+}
+
+.personaclick-recommend .swiper-arrow span {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    margin-top: -16px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 36px 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    background: url(https://static.personaclick.com/Ipekyol/2022/Kasim/251122/ipekyol-prev.svg) center no-repeat;
+    background-size: 175px 91px;
+    height: 50px;
+    opacity: 1;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.personaclick-recommend .swiper-arrow span+span {
+    display: block;
+    background: url(https://static.personaclick.com/Ipekyol/2022/Kasim/251122/ipekyol-next.svg) center no-repeat;
+    background-size: 175px 91px;
+    height: 50px;
+    transform: translateY(-50%);
+    left: unset;
+    right: 0;
+}
+
+.personaclick-recommend span.swiper-button-disabled {
+    opacity: .4;
+    cursor: auto;
+}
+
+@keyframes slideranimate {
+    0% {
+        left: 10px;
+        top: 10px;
+    }
+
+    100% {
+        left: 1px;
+        top: 1px;
+    }
+}
+
+.personaclick-recommend .swiper-arrow span:after {
+    animation-name: slideranimate;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:991px) {
+    .personaclick-recommend {
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .recommender-block-title {
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .pc-swiper-flex-all {
+        flex-direction: column;
+    }
+
+    .pc-swiper-outer-container {
+        width: 100%;
+    }
+
+    .recommender-block-title {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .recommender-block-title-inner {
+        padding: 16px;
+    }
+
+    .recommender-block-title-inner span {
+        font-size: 16px;
+    }
+
+    .recommender-block-title-inner span+span {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .recommended-item-details {
+        padding: 0 0px 0px 0px;
+        margin-top: 8px;
+    }
+
+    .recommended-item-title a {
+        font-size: 14px;
+    }
+
+    .recommended-item-bottom-bar {
+        padding: 8px 0px;
+        bottom: 12px;
+    }
+
+    .recommended-item-oldprice span {
+        font-size: 13px;
+    }
+
+    .recommended-item-price span {
+        font-size: 14px;
+    }
+
+    .recommended-item-discounted {
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,233 @@
+html,
+body {
+    overflow-x: hidden;
+    /* Prevent scroll on narrow devices */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #000;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container {
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+
+header nav ul li a {
+    color: #000;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+header nav ul li.dropdown ul {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+header nav ul li.dropdown ul li {
+    width: 30%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 10px;
+    padding: 5px;
+}
+
+header nav ul li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header nav ul li.dropdown ul li a:hover {
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+}
+
+header nav ul li.dropdown ul li a span.icon {
+    opacity: 0;
+}
+
+header nav ul li.dropdown ul li a:hover span.icon {
+    color: black;
+    opacity: 1;
+}
+
+/* ara */
+
+.toggle-menu-ara {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    z-index: 1000;
+}
+
+.toggle-menu-ara i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    left: 0px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.toggle-menu-ara i:nth-child(1) {
+    top: 16px;
+}
+
+.toggle-menu-ara i:nth-child(2) {
+    top: 24px;
+}
+
+.toggle-menu-ara i:nth-child(3) {
+    top: 32px;
+}
+
+.toggle-menu.active i:nth-child(1) {
+    top: 25px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.toggle-menu.active i:nth-child(2) {
+    background: transparent;
+}
+
+.toggle-menu.active i:nth-child(3) {
+    top: 25px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.menu-drawer-ara {
+    display: none;
+    z-index: 99999999999999;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    top: 50px;
+    transition: top linear .2s;
+    padding: 10px;
+    margin-left: -30px;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.open {
+    top: 0px;
+    transition: top linear .10s;
+}
+
+.menu-drawer-ara input.Ara {
+    width: 90%;
+    font-size: 26px;
+    margin-top: 15px;
+    border: none;
+}
+
+.menu-drawer-ara a:hover {
+    text-decoration: none;
+}
+
+/* ara son */
+
+/* sepetim */
+
+.toggle-menu-sepetim {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    z-index: 1000;
+}
+
+.toggle-menu-sepetim i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    left: 0px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.toggle-menu-sepetim i:nth-child(1) {
+    top: 16px;
+}
+
+.toggle-menu-sepetim i:nth-child(2) {
+    top: 24px;
+}
+
+.toggle-menu-sepetim i:nth-child(3) {
+    top: 32px;
+}
+
+.toggle-menu.active i:nth-child(1) {
+    top: 25px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.toggle-menu.active i:nth-child(2) {
+    background: transparent;
+}
+
+.toggle-menu.active i:nth-child(3) {
+    top: 25px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.menu-drawer-sepetim {
+    display: none;
+    z-index: 9999;
+    width: 40%;
+    background-color: white;
+    height: 1000px;
+    position: absolute;
+    right: 1%;
+    top: 0;
+    transition: right linear .2s;
+    padding: 50px;
+    padding-top: 30px;
+    border-left: 1.5px solid lightgray;
+}
+
+.open {
+    right: 0px;
+    transition: right linear .2s;
+}
+
+/* sepetim son */
